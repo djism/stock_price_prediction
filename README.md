@@ -56,20 +56,7 @@ The project is organized into several modules:
 
 
 
-stock-prediction/
-├── main.py                 # Main entry point for the application
-├── requirements.txt        # Python dependencies
-├── app/app.py                  # Streamlit web application
-├── config.py               # Configuration settings
-├── src/
-│   ├── data_preprocessing.py  # Data fetching and cleaning
-│   ├── model_training.py      # ML model implementation
-│   ├── prediction.py          # Price prediction logic
-│   └── visualization.py       # Charting and technical analysis
-├── data/                   # Storage for downloaded stock data
-├── models/                 # Trained model files
-└── figures/                # Generated charts and visualizations
-
+![Alt text](https://github.com/djism/stock_price_prediction/blob/main/Screenshot%202025-04-03%20045656.png?raw=true)
 
 
 
@@ -106,9 +93,9 @@ Web Application
 The Streamlit application provides a user-friendly interface for interacting with the prediction model:
 
 
-https://github.com/djism/stock_price_prediction/blob/main/Screenshot%202025-04-03%20044014.png?raw=true
+![Alt text](https://github.com/djism/stock_price_prediction/blob/main/Screenshot%202025-04-03%20044014.png?raw=true)
 
-https://github.com/djism/stock_price_prediction/blob/main/Screenshot%202025-04-03%20044025.png?raw=true
+![Alt text](https://github.com/djism/stock_price_prediction/blob/main/Screenshot%202025-04-03%20044025.png?raw=true)
 
 
 Features include:
@@ -128,23 +115,20 @@ Setup
 
 -Clone the repository
 
-bash
 git clone https://github.com/yourusername/stock-prediction.git
+
 cd stock-prediction
 
 -Install required packages
 
-bash
 pip install -r requirements.txt
 
 -Run the main application
 
-bash
 python main.py
 
 -Launch the web application
 
-bash
 streamlit run app.py
 
 
